@@ -1,6 +1,6 @@
 const nodemailer = require('nodemailer')
 const dotenv = require('dotenv')
-
+// Checar en la Api de Google
 let transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
